@@ -1,13 +1,13 @@
 {
   "name": "full_stack_project",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "node --test",
     "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.2.1"
   }
 }
