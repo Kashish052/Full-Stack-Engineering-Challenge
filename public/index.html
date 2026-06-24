@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BFHL Hierarchy Analyzer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>BFHL Hierarchy Analyzer</h1>
+      <p class="subtext">Enter edges as JSON array or one edge per line.</p>
+
+      <textarea id="nodeInput" rows="10" spellcheck="false">[
+  "A->B",
+  "A->C",
+  "B->D"
+]</textarea>
+
+      <button id="submitBtn" type="button">Submit</button>
+      <p id="status" class="status"></p>
+
+      <section>
+        <h2>Response</h2>
+        <pre id="result">{}</pre>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

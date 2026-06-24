@@ -1,0 +1,11 @@
+{
+  "name": "full_stack_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  }
+
+}
